@@ -1,0 +1,71 @@
+/* Author: Vijay Thapa */
+/* Theme: Travel Himalayas */
+/* Version: 1.0 */
+
+
+/* CSS for Whole */
+.clearfix{
+    clear: both;
+    float: none;
+    position: relative;
+}
+/* CSS for Top Header */
+.top-header{
+    padding: 1rem 0;
+}
+
+
+
+/* CSS for Top-Menu */
+.top-menu{
+    background: #022b54;
+    color: #ffffff;
+}
+.top-menu-left{
+    font-weight: bolder;
+    line-height: 55px;
+}
+.top-menu-right{
+    text-align: right;
+}
+.nav a.nav-link{
+    color: white !important;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav a.nav-link:hover, .active{
+    background: rgba(255, 255, 255, 0.2) !important; 
+}
+
+/* CSS for Slider */
+.slider{
+    height: 540px;
+}
+
+/* CSS for Activities */
+.activities{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+}
+.activities .activity-box{
+    height: 450px;
+    border: 1.8rem solid transparent;
+}
+.activities .activity-box .activity-box-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80%;
+    color: white;
+}
+
+/* CSS for Fixed-Departures */
+.fixed-departures{
+    border: 1px solid red;
+    margin-top: 27rem;
+    padding: 3rem;
+}
