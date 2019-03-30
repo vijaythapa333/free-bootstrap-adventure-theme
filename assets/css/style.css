@@ -13,6 +13,18 @@
 .top-header{
     padding: 1rem 0;
 }
+.call-time{
+    margin: 0 1rem;
+}
+
+/* CSS for Form Elements */
+.email-sub{
+    padding: 0.5rem;
+    width: 80%;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+}
 
 
 
@@ -52,6 +64,11 @@
 .activities .activity-box{
     height: 450px;
     border: 1.8rem solid transparent;
+    transition: 0.5s all ease;
+}
+.activities .activity-box:hover{
+    border: 1rem solid transparent;
+    cursor: pointer;
 }
 .activities .activity-box .activity-box-title{
     text-align: center;
@@ -65,7 +82,136 @@
 
 /* CSS for Fixed-Departures */
 .fixed-departures{
-    border: 1px solid red;
-    margin-top: 27rem;
+    margin-top: 30rem;
+    padding: 2.5rem;
+}
+.fixed-departures h1{
+    text-align: center;
+}
+.fixed-departures .fixed-departure-box{
+    border: 1px solid silver;
+    margin: 2rem 0;
+    padding-left: 0;
+}
+
+.fixed-departures .fixed-departure-box .fixed-departure-box-right{
     padding: 3rem;
+}
+.fixed-departures .fixed-departure-box .fixed-departure-box-right p{
+    margin: 1rem 0;
+    line-height: 30px;
+    color: grey;
+}
+.fixed-departures .fixed-departure-box .fixed-departure-box-right h4{
+    font-weight: 400;
+}
+
+/* CSS for Courses */
+.courses{
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 8rem;
+}
+.course-box{
+    height: 500px;
+    border: 1rem solid white;
+}
+.course-box-content{
+    background: #ffffff;
+    height: 180px;
+    position: absolute;
+    top: 70%;
+    width: 90%;
+    margin: 0 0.8rem;
+    padding: 2rem 1rem;
+    box-shadow: 0 0 10px 1px #454749;
+}
+
+/* CSS for Newsletter */
+.newsletter{
+    padding: 6rem 0;
+    line-height: 30px;
+    background: url('../../images/newsletterbg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+.newsletter h1{
+    margin-bottom: 2rem;
+}
+
+/* CSS for GHT regions */
+.ght-regions{
+    padding: 4rem;
+    background: #F6F6F6;
+}
+.ght-regions h1{
+    text-align: center;
+}
+.ght-regions .ght-region-box a img{
+    height: 200px;
+    opacity: 0.9;
+    transition: 1s all ease;
+}
+.ght-regions .ght-region-box a img:hover{
+    opacity: 1;
+}
+.ght-regions .ght-region-box h5{
+    font-weight: 300;
+    margin: 1rem 0;
+}
+.ght-regions .ght-region-box h4{
+    font-weight: 400;
+    margin: 0.8rem 0;
+}
+
+/* CSS for Footer */
+.footer{
+    padding: 5rem 0;
+    background: #022b54;
+    color: #ffffff;
+}
+.footer-title{
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    margin: 0.5rem 0;
+    margin-left: -2.4rem;
+}
+.footer small{
+    color: #838384;
+}
+.footer a{
+    text-decoration: none;
+    color: #c9ccc9;
+    transition: 0.5s all ease;
+}
+.footer a:hover{
+    color: #01B3A7;
+    transition: 0.5s all ease;
+}
+.icon{
+    color: #01B3A7;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+/* CSS for Developers */
+.developer{
+    background: #011d38;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    line-height: 35px;
+}
+.developer a{
+    color: #01B3A7;
+}
+.developer a:hover{
+    color: #ffffff;
 }

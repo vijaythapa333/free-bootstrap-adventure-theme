@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+
     <title>Travel Himalayas</title>
   </head>
   <body>
@@ -24,9 +27,13 @@
                 </div>
 
                 <div class="col-md-8 top-menu-right">
-                    9:00 AM - 5:00 PM
-                    + 977 98xxxxxxxxx
-                    <button href="#" class="btn btn-outline-info btn-lg">Get a Free Quote</button>
+                    <span class="call-time"> <i class="fas fa-clock icon"></i> 9:00 AM - 5:00 PM </span> 
+                    | 
+                    <span class="call-time"> <i class="fas fa-phone-volume icon"></i> + 977 98xxxxxxxxx</span>
+
+                    <a href="#">
+                        <button class="btn btn-outline-info btn-lg">Get a Free Quote</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -48,9 +55,21 @@
                     
                 <div class="col-md-4">
                     <nav class="nav justify-content-end">
-                        <a class="nav-link" href="#">f</a>
-                        <a class="nav-link" href="#">y</a>
-                        <a class="nav-link" href="#">l</a>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </nav>
                 </div>
             </div>
@@ -96,48 +115,96 @@
     </div>
     <!-- Activities Ends Here -->
 
-    <div class="clearfix"></div>
-
     <!--Fixed Departures Starts Here-->
     <div class="fixed-departures">
         <div class="container">
-            <h2>Fixed Departures</h2>
+            <h1>Fixed Departures</h1>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="" alt="">
+            <div class="row fixed-departure-box">
+                <div class="col-md-6" style="background: url('images/activity1.jpg') no-repeat center; background-size: cover; height: 350px;">
+                    
                 </div>
 
-                <div class="col-md-6">
-                    <h5>Title of the Fixed Departure</h5>
-
+                <div class="col-md-6 fixed-departure-box-right">
+                    <h4>Title of the Fixed Departure</h4>
+                    <small style="color:grey;">5 Traveler Reviews</small>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptate animi aliquam, omnis earum voluptatibus consequuntur 
-                        maxime? Numquam vitae, nam reiciendis sapiente labore neque id iste? Officiis odit praesentium dicta.
+                        maxime? Numquam vitae...
                     </p>
 
-                    <button class="btn btn-lg btn-outline-info">Join Now</button>
+                    <a href="#"> 
+                        <button class="btn btn-lg btn-outline-info">Join Now</button>
+                    </a>
 
                 </div>
             </div>
+
+            <div class="row fixed-departure-box">
+                <div class="col-md-6" style="background: url('images/activity3.jpg') no-repeat center; background-size: cover; height: 350px;">
+                    
+                </div>
+
+                <div class="col-md-6 fixed-departure-box-right">
+                    <h4>Title of the Fixed Departure</h4>
+                    <small style="color:grey;">5 Traveler Reviews</small>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptate animi aliquam, omnis earum voluptatibus consequuntur 
+                        maxime? Numquam vitae...
+                    </p>
+
+                    <a href="#"> 
+                        <button class="btn btn-lg btn-outline-info">Join Now</button>
+                    </a>
+
+                </div>
+            </div>
+            
+            <div style="margin: 2rem; text-align: center; width: 100%;">
+                <a href="#">Recent Departures</a>
+            </div>
+
         </div>
     </div>
     <!--Fixed Departures Ends Here-->
 
     <!--Other Activities Starts Here-->
-    <div class="other-activities">
+    <div class="courses">
         <div class="container">
-            <h2>Other Activities</h2>
+            <h1>Our Courses</h1>
 
             <div class="row">
-                <div class="col-md-4 other-activities-box">
-                    <div class="other-activities-box-content">
-                        <h4>Other Activities Content Title</h4>
+                <div class="col-md-6 course-box" style="background: url('images/activity1.jpg') no-repeat center; background-size: cover;">
 
-                        <h6>may 17, 2019</h6>
+                    <div class="course-box-content">
+                        <h3>Course Content Title</h3>
+
+                        <h6>May 17, 2019</h6>
+
+                        <a href="#"> 
+                            <button class="btn btn-lg btn-outline-info">Enroll Now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 course-box" style="background: url('images/activity1.jpg') no-repeat center; background-size: cover;">
+
+                    <div class="course-box-content">
+                        <h3>Course Content Title</h3>
+
+                        <h6>May 17, 2019</h6>
+
+                        <a href="#"> 
+                            <button class="btn btn-lg btn-outline-info">Enroll Now</button>
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <div style="margin-top: 5rem; text-align: center; width: 100%;">
+                <a href="#">More Courses</a>
+            </div>
+
         </div>
     </div>
     <!--Other Activities Ends HEre-->
@@ -145,15 +212,20 @@
     <!--Newsletter Starts Here-->
     <div class="newsletter">
         <div class="container">
-            <h2>Sign Up for 25% Discount</h2>
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <h1>Sign Up for 25% Discount</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem quas accusantium voluptatem voluptates quo, 
-                vel officiis voluptas aperiam modi nulla, tempore quibusdam culpa placeat, atque reiciendis velit accusamus delectus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem quas accusantium voluptatem voluptates quo, 
+                            vel officiis voluptas aperiam modi nulla, tempore quibusdam </p>
+                        
+                    <form method="POST" action="#">
+                        <input type="email" name="email" class="email-sub" placeholder="Enter Your E-mail" required>
+                        <input type="submit" name="submit" id="submit" value="Subscribe" class="btn btn-lg btn-info">
+                    </form>
+                </div>
+            </div>
             
-            <form method="POST" action="#">
-                <input type="email" name="email" placeholder="Enter Your E-mail">
-                <input type="submit" name="submit" id="submit" value="Subscribe">
-            </form>
         </div>
     </div>
     <!--Newsletter Ends Here-->
@@ -161,12 +233,46 @@
     <!--GHT Regions Starts HEre-->
     <div class="ght-regions">
         <div class="container">
-            <h3>GHT Regions</h3>
+            <h1>Great Himalaya Trails</h1>
+            <br>
 
             <div class="row">
                 <div class="col-md-3 ght-region-box">
-                    <h5>annapurna region</h5>
+                    <a href="#">
+                        <img src="images/activity3.jpg" alt="" class="img-fluid rounded">
+                    </a>
+
+                    <h5 class="float-left">Annapurna Region</h5>
+                    <h4 class="float-right">$300</h4>
                 </div>
+
+                <div class="col-md-3 ght-region-box">
+                    <a href="#">
+                        <img src="images/activity3.jpg" alt="" class="img-fluid rounded">
+                    </a>
+    
+                    <h5 class="float-left">Annapurna Region</h5>
+                    <h4 class="float-right">$300</h4>
+                </div>
+                
+                <div class="col-md-3 ght-region-box">
+                    <a href="#">
+                        <img src="images/activity3.jpg" alt="" class="img-fluid rounded">
+                    </a>
+        
+                    <h5 class="float-left">Annapurna Region</h5>
+                    <h4 class="float-right">$300</h4>
+                </div>
+
+                <div class="col-md-3 ght-region-box">
+                    <a href="#">
+                        <img src="images/activity3.jpg" alt="" class="img-fluid rounded">
+                    </a>
+            
+                    <h5 class="float-left">Annapurna Region</h5>
+                    <h4 class="float-right">$300</h4>
+                </div>
+
             </div>
         </div>
     </div>
@@ -177,30 +283,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 footer-box">
-                    <h5>contact us</h5>
+                    <h5 class="footer-title">contact us</h5>
+
+                    <ul>
+                        <li><span class="icon"><i class="fas fa-phone-volume"></i></span> <a href="#"> +977 98XXXXXXXX </a></li>
+                        <li><span class="icon"><i class="fas fa-envelope"></i></span> <a href="#"> info@travelhimalayas.com </a></li>
+                        <li><span class="icon"><i class="fas fa-location-arrow"></i></span> <a href="#"> Raniban, Kathmandu, Nepal </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-box">
+                    <h5 class="footer-title">popular treks</h5>
+                    <p>
+                        <a href="#"> 7 days Langtang Trek </a><br>
+                        <small>May 04, 2018</small>
+                    </p>
+
+                    <p>
+                        <a href="#"> 5 days Poonhill Trek </a><br>
+                        <small>May 04, 2018</small>
+                    </p>
 
                 </div>
 
                 <div class="col-md-4 footer-box">
-                    <h5>popular treks</h5>
-
-
-                </div>
-
-                <div class="col-md-4 footer-box">
-                    <h5>quick links</h5>
+                    <h5 class="footer-title">quick links</h5>
                     
                     <ul>
-                        <li><a href="#"></a>About Us</li>
-                        <li><a href="#"></a>FAQs</li>
-                        <li><a href="#"></a>Privacy Policy</li>
-                    </ul>    
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul> 
+                    
+                    <a href="#">
+                        <button class="btn btn-lg btn-info">Get in Touch</button>
+                    </a>
                 </div>
 
             </div>
         </div>
     </footer>
     <!--Footer Ends Here-->
+
+    <!--Developer Starts Here-->
+    <div class="developer">
+        <p>All rights reserved, &COPY; <a href="#">Travel Himalayas</a>. Developed By - <a href="#">Vijay Thapa</a></p>
+    </div>
+    <!--DEveloper Ends Here-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
