@@ -54,6 +54,14 @@
 .slider{
     height: 540px;
 }
+.slider-description{
+    text-align: left !important;
+    top: 40%;
+}
+.slider-description h1{
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
 
 /* CSS for Activities */
 .activities{
